@@ -17,8 +17,8 @@ a {
 }
 
 .navbar__logo {
-  font-size: 24px;
   color: white;
+  font-size: 24px;
 }
 
 .navbar__logo i {
@@ -33,6 +33,7 @@ a {
 
 .navbar__menu li {
   padding: 8px 12px;
+  width: 100%;
 }
 
 .navbar__menu li:hover {
@@ -53,10 +54,10 @@ a {
 
 .navbar__toggleBtn {
   display: none;
-  color: #d49466;
   position: absolute;
   right: 32px;
   font-size: 24px;
+  color: #d49466;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,10 +71,6 @@ a {
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-  }
-
-  .navbar__menu li {
     width: 100%;
     text-align: center;
   }
